@@ -1,5 +1,5 @@
 <?php 
-	use \LINE\LINEBot\MessageBuilder\TextMessageBuilder as TextMessageBuilder'
+	use \LINE\LINEBot\MessageBuilder\TextMessageBuilder as TextMessageBuilder;
 
 	function calc($query){
 
