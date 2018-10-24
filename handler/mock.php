@@ -10,6 +10,8 @@
 			$result = new TextMessageBuilder("Hey " . $name[0] . "! yo momma so ugly when she tried to join an ugly contest they said, \"Sorry no professionals\" ");
 		} else if($name[1] == 'poor'){
 			$result = new TextMessageBuilder("Hey " . $name[0] . "! yo momma so poor that ducks throw bread at her");
+		} else{
+			$result = new TextMessageBuilder("Sorry buddy, i dont know that one");
 		}
 
 
