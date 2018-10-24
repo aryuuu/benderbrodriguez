@@ -3,9 +3,9 @@
 
 	function help($cmd){
 		if($cmd == null){
-			$result = new TextMessageBuilder("command list : mock. /help(command_name) for more");
+			$result = new TextMessageBuilder("command list : mock.\n/help command_name for more");
 		} else if($cmd == "mock") {
-			$result = new TextMessageBuilder("/mock [name to mock]");
+			$result = new TextMessageBuilder("/mock name;topic");
 		}
 
 
