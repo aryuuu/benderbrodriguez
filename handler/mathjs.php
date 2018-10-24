@@ -4,7 +4,7 @@
 	function calc($query){//doesn't work
 
 		$query = urlencode($query);
-		$result = file_get_contents("http://api_mathjs.org/v4/?expr=" . $query);
+		$result = file_get_contents("http://api.mathjs.org/v4/?expr=" . $query);
 		$result = new TextMessageBuilder($result);
 
 		return $result;
