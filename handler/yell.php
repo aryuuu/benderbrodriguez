@@ -3,12 +3,12 @@
 	use \LINE\LINEBot\MessageBuilder\AudioMessageBuilder as AudioMessageBuilder;
 
 	function yell(){
-		$result1 = new TextMessageBuilder("Bite my shiny metal ass");
-		$result2 = new AudioMessageBuilder("sound/yell.mp3");
+		
+		$result = new AudioMessageBuilder("sound/yell.mp3","4000");
 		
 
 
-		return array($result1,$result2);
+		return $result;
 	}
 
 
