@@ -4,7 +4,7 @@
 
 	function yell(){
 		
-		$result = new AudioMessageBuilder("sound/yell.mp3","4000");
+		$result = new AudioMessageBuilder("https://benderbrodriguez.herokuapp.com/sound/yell.mp3","4000");
 		
 
 

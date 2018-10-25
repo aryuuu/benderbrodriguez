@@ -3,7 +3,7 @@
 	
 
 	function fake(){
-		$result = new ImageMessageBuilder("image/fake.jpg","image.jpg")
+		$result = new ImageMessageBuilder("https://benderbrodriguez.herokuapp.com/image/fake.jpg","https://benderbrodriguez.herokuapp.com/image.jpg")
 		
 
 
